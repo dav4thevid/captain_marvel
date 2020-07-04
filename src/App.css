@@ -1,3 +1,9 @@
 .background-image {
   background-image: url("../src/public/captain_marvel_still_7.jpg");
+  width: 100%;
+}
+
+h1{
+  padding: 0px;
+  margin:0px;
 }
