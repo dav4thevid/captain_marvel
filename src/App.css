@@ -15,17 +15,23 @@
   display: inline-block;
   font-family: RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
   letter-spacing: 1.2px;
+  
 
 }
 
 .header1 {
   font-size: 18px;
+  display:inline-block;
+  margin-bottom: 10px;
 }
 
 .header2{
   font-size: 30px;
+  display:inline-block;
+  margin-bottom: 10px;
 }
 
 .header3 {
   font-size:15px;
+  display:inline-block;
 }
