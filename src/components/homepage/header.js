@@ -15,6 +15,25 @@ export default function header() {
         </p>
         <h2 class = "header-text"></h2>
         <h6 class = "header-text"></h6>
+
+        <nav aria-label="all about Captain Marvel" class="masthead__tabs">
+            <ul class="masthead__tabs-wrapper">
+                <li class="masthead__tabs__li">
+                    <a class="masthead__tabs__link masthead__tabs__link--active" href="/characters/captain-marvel-carol-danvers">
+                          <span class="masthead__tabs__link-text">Overview</span>
+                    </a></li>
+                <li class="masthead__tabs__li">
+                    <a class="masthead__tabs__link" href="/characters/captain-marvel-carol-danvers/in-comics/profile">
+                          <span class="masthead__tabs__link-text">In Comics Profile</span>
+                    </a>
+                </li>
+                <li class="masthead__tabs__li">
+                    <a class="masthead__tabs__link" href="/characters/captain-marvel-carol-danvers/in-comics">
+                        <span class="masthead__tabs__link-text">In Comics Full Report</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
     )
 }
