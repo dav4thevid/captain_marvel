@@ -10,7 +10,7 @@
   -webkit-transorm: translateY(-50%); /* for Chrome */
   position: absolute;
   left: 0;
-  padding-left:40px;
+  padding-left:60px;
   color:white;
   display: inline-block;
   font-family: RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
@@ -41,9 +41,13 @@
 /* Tab Styling */
 
 nav {
-  margin-left: 50px;
+  margin-left: 60px;
   background-color: black;
-  width:35%;
+  width:22%;
+  position: absolute;
+  top: 500px;
+  width: auto;
+ 
 }
 
 ul {
@@ -56,17 +60,41 @@ ul {
 
 li {
   float: left;
+  font-size: 12px;
+  
+ 
+}
+
+.margin-top {
+  margin-top:10px;
+}
+
+.gray-border {
   border-right: 1px solid gray;
 }
 
 li a {
   display: block;
-  color: white;
+  color: rgb(190, 190, 190);
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 li a:hover {
-  background-color: #111111;
+  color: #ffffff;
+}
+
+/* flex container styling */
+.image2 {
+  margin-top:50px;
+  margin-left:5%;
+  width:35%;
+  height:auto;
+}
+
+.flex-container {
+  display: flex;
+
 }

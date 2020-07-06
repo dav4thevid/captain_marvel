@@ -1,5 +1,6 @@
 import React from 'react';
 import picture from '../../public/captain_marvel_still_7.jpg'
+import picture2 from '../../public/hiclipart.com.png';
 // captain-marvel\src\public\captain_marvel_still_7.jpg
 
 
@@ -18,22 +19,32 @@ export default function header() {
 
         <nav aria-label="all about Captain Marvel" class="masthead__tabs">
             <ul class="masthead__tabs-wrapper">
-                <li class="masthead__tabs__li">
-                    <a class="masthead__tabs__link masthead__tabs__link--active" href="/characters/captain-marvel-carol-danvers">
-                          <span class="masthead__tabs__link-text">Overview</span>
+                <li class="gray-border">
+                    <a class="margin-top" href="/characters/captain-marvel-carol-danvers">
+                          <span class="margin-top">OVERVIEW</span>
                     </a></li>
-                <li class="masthead__tabs__li">
+                <li class="gray-border">
                     <a class="masthead__tabs__link" href="/characters/captain-marvel-carol-danvers/in-comics/profile">
-                          <span class="masthead__tabs__link-text">In Comics Profile</span>
+                          <span class="">IN COMICS<br/> PROFILE</span>
                     </a>
                 </li>
-                <li class="masthead__tabs__li">
+                <li class="">
                     <a class="masthead__tabs__link" href="/characters/captain-marvel-carol-danvers/in-comics">
-                        <span class="masthead__tabs__link-text">In Comics Full Report</span>
+                        <span class="">IN COMICS<br/> FULL REPORT</span>
                     </a>
                 </li>
             </ul>
         </nav>
+        <section className = "flex-container">
+            <img class = "image2" src = {picture2} />
+            <div>
+                <article>
+                    
+CAPTAIN MARVEL
+Near death, Carol Danvers was transformed into a powerful warrior for the Kree. Now, returning to Earth years later, she must remember her past in order to to prevent a full invasion by shapeshifting aliens, the Skrulls.
+                </article>
+            </div>
+        </section>
     </div>
     )
 }
