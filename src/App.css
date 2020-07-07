@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .image {
   width:100%;
   object-fit: cover;
@@ -96,10 +98,11 @@ li a:hover {
 
 .article {
   width: 50%;
-  font-size: 20px;
+  font-size: 1.2em;
   text-align:justify;
   margin-top: 30%;
   margin-left: 30%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .flex-container {
@@ -109,6 +112,7 @@ li a:hover {
 .button {
   background-color:#e62429;
   color:white;
+  margin-top: 10px;
   font-size: 0.9rem;
   text-transform: capitalize;
   font-weight: bold;

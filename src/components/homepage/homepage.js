@@ -4,7 +4,7 @@ import picture2 from '../../public/hiclipart.com.png';
 // captain-marvel\src\public\captain_marvel_still_7.jpg
 
 
-export default function header() {
+export default function Homepage() {
      
     return (
     <div class = "">
