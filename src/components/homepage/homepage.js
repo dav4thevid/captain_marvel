@@ -80,9 +80,9 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div class = "card">
-                
-            </div>
+        </section>
+
+        <section class = "latest-videos">
 
         </section>
     </div>
