@@ -38,10 +38,14 @@ export default function header() {
         <section className = "flex-container">
             <img class = "image2" src = {picture2} />
             <div>
-                <article>
-                    
-CAPTAIN MARVEL
-Near death, Carol Danvers was transformed into a powerful warrior for the Kree. Now, returning to Earth years later, she must remember her past in order to to prevent a full invasion by shapeshifting aliens, the Skrulls.
+                <article class = "article">
+                    <h2>CAPTAIN MARVEL</h2>
+                    <p>
+                    Near death, Carol Danvers was transformed into a powerful warrior for the Kree. Now, returning to Earth years later, she must remember her past in order to to prevent a full invasion by shapeshifting aliens, the Skrulls.
+                    </p>
+
+                    <button class = "button">WATCH NOW</button>
+
                 </article>
             </div>
         </section>

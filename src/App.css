@@ -94,7 +94,34 @@ li a:hover {
   height:auto;
 }
 
+.article {
+  width: 50%;
+  font-size: 20px;
+  text-align:justify;
+  margin-top: 30%;
+  margin-left: 30%;
+}
+
 .flex-container {
   display: flex;
+}
 
+.button {
+  background-color:#e62429;
+  color:white;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  width:10em;
+  padding:12px;
+  border:none;
+  border-color: transparent;
+  border-style: solid;
+  /* clip-path: polygon(10% 0, 100% 0%, 100% 37%, 100% 80%, 85% 100%, 0 100%, 0 25%); */
+  clip-path: polygon(12% 0, 100% 0%, 100% 37%, 100% 66%, 88% 100%, 0 100%, 0 30%);
+}
+
+.button:hover{
+  background-color:#a0191d;
+  cursor: pointer;
 }
