@@ -49,6 +49,18 @@ export default function Homepage() {
                 </article>
             </div>
         </section>
+
+        <section className = "latest-news">
+            <div>
+                <h2 class = "latest-news-header">
+                    LATEST NEWS
+                </h2>
+            </div>
+            <div>
+
+            </div>
+
+        </section>
     </div>
     )
 }

@@ -12,7 +12,7 @@
   -webkit-transorm: translateY(-50%); /* for Chrome */
   position: absolute;
   left: 0;
-  padding-left:60px;
+  margin-left: 60px;
   color:white;
   display: inline-block;
   font-family: RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
@@ -128,4 +128,19 @@ li a:hover {
 .button:hover{
   background-color:#a0191d;
   cursor: pointer;
+}
+
+
+/* LATEST NEWS */
+
+.latest-news {
+  background-color: black;
+  margin: 0;
+}
+
+.latest-news-header{
+  margin:0;
+  color:white;
+  margin-left: 60px;
+  padding-top: 1em;
 }
