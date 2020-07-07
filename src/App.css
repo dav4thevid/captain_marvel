@@ -144,3 +144,23 @@ li a:hover {
   margin-left: 60px;
   padding-top: 1em;
 }
+
+.card {
+  display: flex;
+  color:white;
+  margin-right:60px;
+  margin-left: 60px;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.container {
+  margin-right:10px;
+}
+
+.card-img {
+  width:100%;
+  height:200px;
+}

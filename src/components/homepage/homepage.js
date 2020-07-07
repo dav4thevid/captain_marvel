@@ -1,7 +1,7 @@
 import React from 'react';
 import picture from '../../public/captain_marvel_still_7.jpg'
 import picture2 from '../../public/hiclipart.com.png';
-// captain-marvel\src\public\captain_marvel_still_7.jpg
+import Generation from '../../public/Generation.jpg';
 
 
 export default function Homepage() {
@@ -51,13 +51,37 @@ export default function Homepage() {
         </section>
 
         <section className = "latest-news">
-            <div>
                 <h2 class = "latest-news-header">
                     LATEST NEWS
-                </h2>
+                </h2>  
+            <div class = "card">
+                <div class = "container">
+                   
+                        <img  class = "card-img" src= {Generation} alt="Avatar"/>
+                  
+                    <h4>Comics</h4>
+                    <p>Artist Cory Smith Joins 'Captain Marvel' As Carol Danvers Enters as the Accuser</p>
+                </div>
+                <div class = "container">
+                <img  class = "card-img" src= {Generation} alt="Avatar"/>
+                    <h4>Comics</h4>
+                    <p>Artist Cory Smith Joins 'Captain Marvel' As Carol Danvers Enters as the Accuser</p>
+                </div>
+                <div class = "container">
+                        <img class = "card-img" src= {Generation} alt="Avatar"/>
+                   
+                    <h4>Comics</h4>
+                    <p>Artist Cory Smith Joins 'Captain Marvel' As Carol Danvers Enters as the Accuser</p>
+                </div>
+                <div class = "container">
+                <img  class = "card-img" src= {Generation} alt="Avatar"/>
+                    <h4>Comics</h4>
+                    <p>Artist Cory Smith Joins 'Captain Marvel' As Carol Danvers Enters as the Accuser</p>
+                </div>
             </div>
-            <div>
 
+            <div class = "card">
+                
             </div>
 
         </section>
